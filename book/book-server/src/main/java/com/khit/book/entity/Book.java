@@ -20,5 +20,8 @@ public class Book extends BaseEntity{
 	
 	@Column(nullable = false)
 	private String author;
+	
+	@Column(nullable = false)
+	private String price;
 
 }
